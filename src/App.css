@@ -1,40 +1,52 @@
 .wrapper {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
 
+}
 .container {
-  
-  background: #FBFBFB;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.quotionWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+
+
 }
 
-.header {
-
-}
-
-.body {
-  padding: 15px;;
-}
-.body .preTitle {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 16px;
-  color: #46a358;
-}
-.body h3 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 26px;
-  color: #3D3D3D;
-}
-.body .description {
+.box{
+  background: linear-gradient(180deg, #38c454 0%, #206725);
+  border-radius: 29px;
+  width: 33px;
+  height: 38px;
+  font-family: "Cera Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 22px;
-  color: #727272;
+  font-size: 28px;
+  line-height: 16px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonBuy {
+  width: 130px;
+  height: 40px;
+  background: #46a358;
+  border-radius: 6px;
+  color: #fff;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
