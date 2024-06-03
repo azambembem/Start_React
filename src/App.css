@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  
+  background: #FBFBFB;
+}
+
+.header {
+
+}
+
+.body {
+  padding: 15px;;
+}
+.body .preTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 16px;
+  color: #46a358;
+}
+.body h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 26px;
+  color: #3D3D3D;
+}
+.body .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  color: #727272;
+}
