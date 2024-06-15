@@ -1,11 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Props from "./Props/props";
+// import App from "./App";
+// import MyClass from "./MyClass/MyClass";
+// import Props from "./Props/props";
+import UseState from "./UseState/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <Props />
+    {/* <Props /> */}
+    {/* <MyClass /> */}
+    <UseState />
   </div>
 );
