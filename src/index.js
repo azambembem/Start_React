@@ -4,15 +4,16 @@ import "./index.css";
 // import App from "./App";
 // import MyClass from "./MyClass/MyClass";
 // import Props from "./Props/props";
-import UseState from "./UseState/useStateProj";
+// import UseState from "./UseState/useStateProj";
 // import Input from "./Input/InputSample";
-
+import FuncUseState from "./FuncUseState/Say";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
     {/* <Props /> */}
     {/* <MyClass /> */}
-    <UseState />
+    {/* <UseState /> */}
     {/* <Input /> */}
+    <FuncUseState />
   </div>
 );
