@@ -1,4 +1,4 @@
-import Say from "./say";
+import Say from "./Say";
 
 const App = () => {
   return <Say />;
