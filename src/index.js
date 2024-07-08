@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import UseReducer from "./UseReducer/useReducer_Proj";
+import UseReducer from "./UseReducer/useReducer_Proj_2";
 // import UseEffect from "./useEffect/useEffect";
 // import App from "./App";
 // import MyClass from "./MyClass/MyClass";
