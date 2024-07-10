@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import App from "./App";
 
-import UseReducer from "./UseReducer/useReducer_Proj_2";
+// import UseReducer from "./UseReducer/useReducer_Proj_2";
 // import UseEffect from "./useEffect/useEffect";
 // import App from "./App";
 // import MyClass from "./MyClass/MyClass";
@@ -12,7 +13,8 @@ import UseReducer from "./UseReducer/useReducer_Proj_2";
 // import FuncUseState from "./FuncUseState/Say";
 // import Event from "./Event/EventPractice";
 // import LifeCycleMethod from "./LifeCycleMethod/LifeCycleSample";
-// import { useReducer } from "./useReducer/useReducer";
+// import UseReducer from "./UseReducer/useReducer_Proj";
+// import UseContext from "./UseContext/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +26,8 @@ root.render(
     {/* <FuncUseState /> */}
     {/* <LifeCycleMethod /> */}
     {/* <UseEffect /> */}
-    <UseReducer />
+    {/* <UseReducer /> */}
+    {/* <UseContext /> */}
+    <App />
   </div>
 );
