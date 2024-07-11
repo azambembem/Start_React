@@ -1,8 +1,10 @@
-import countries from "../mock/country";
+import { useContext } from "react";
 import CardComponent from "./card";
 import Search from "./search";
+import { appContext } from "../App";
 
 const Body = () => {
+  const [countries] = useContext(appContext);
   return (
     <div className="w-[80%] m-auto mt-8">
       <Search />
